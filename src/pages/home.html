@@ -12,7 +12,7 @@
     <title>SDG Award For Kids</title>
 </head>
 <body>
-<div id="menu">
+<div id="menu" data-theme="light">
     <div class="navbar bg-base-100">
         <div class="navbar-start">
             <div class="dropdown">
@@ -47,17 +47,41 @@
         </div>
     </div>
 </div>
-<div>
-
-</div>
-<div class="hero min-h-screen bg-base-200">
-    <div class="hero-content flex-col lg:flex-row-reverse">
-        <div >
-            <h1>THE SDG AWARD FOR KIDS</h1>
-            <img src="../img/artwork_home.png"  alt="people">
+<div id="form">
+    <div class="hero min-h-screen bg-base-200">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+            <div class="text-center lg:text-left">
+                <img src="../img/artwork_home.png">
+            </div>
+            <div>
+                <br>
+            </div>
+            <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100" data-theme="light">
+                <div class="card-body">
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">School Name</span>
+                        </label>
+                        <input type="text" placeholder="School Name" class="input input-bordered" id="schoolname" />
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text" id="email">Email</span>
+                        </label>
+                        <input type="text" placeholder="Email" class="input input-bordered" />
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text" id="password">Password</span>
+                        </label>
+                        <input type="password" placeholder="Password" class="input input-bordered" />
+                    </div>
+                    <div class="form-control mt-6">
+                        <button class="btn btn-primary">Sign Up</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-</div>
 </body>
 </html>

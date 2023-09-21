@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        costum: [ 'Signika', 'sans']
+      }
     },
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
@@ -41,6 +44,19 @@ module.exports = {
       "night",
       "coffee",
       "winter",
+      {
+        SDG: {
+          "primary": "#3abff8",
+          "secondary": "#ffffff",
+          "accent": "#1dcdbc",
+          "neutral": "#3abff8",
+          "base-100": "#D8FBFF",
+          "info": "#3abff8",
+          "success": "#36d399",
+          "warning": "#fbbd23",
+          "error": "#f87272",
+        },
+      }
     ],
   }
 }
